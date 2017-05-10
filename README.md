@@ -96,3 +96,6 @@ From the build directory, run
 ```
 ./gazr_estimate_head_direction --model ../share/shape_predictor_68_face_landmarks.dat --show | python ../tools/echo.py
 ```
+
+You can also run ``./gazr_show_head_pose --model ../share/shape_predictor_68_face_landmarks.dat`` to test
+the library. You should get something similar to the picture above.
